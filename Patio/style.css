@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+body{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #ffffff;
+
+    background-image: url(./assets/background.svg);
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    line-height: 1.2;
+    /* line height acts as mulyiplier of the font size so therefore 27px */
+}
+
+
+
+header{
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+
+
+nav{
+    background-color: red;
+    padding: 20px 40px 20px 40px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+
+nav a:hover{
+    color: #5000ff;
+    border-bottom: solid 2px #ffffff;
+}
+
+
+
+section{
+    background-color: #5000ff;
+    padding: 40px;
+}
+
+
+
+h2{
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+
+
+.image img{
+    
+    width: 100%;
+}
+
+
+
+.image{
+    padding: 0;
+}
+
+
+
+blockquote{
+    font-size: 32px;
+    line-height: 1.2;
+    font-style: italic;
+    margin: 40px 0px;
+}
+
+
+
+.map{
+    width: 100%;
+}
+
+
+.contact p{
+    margin-top: 20px;
+}
+
+
+
+.contact a{
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: solid 2px #f05d5d;
+    padding-bottom: 1px;
+}
+
+
+
+/* responsiveness */
+@media (max-width:740px){
+
+    body{
+        padding-top: 0;
+        font-size: 16px;
+    }
+
+
+    section, header{
+        padding: 20px;
+    }
+
+    nav{
+        padding: 10px 20px 10px 10px;
+    }
+
+
+    h2, blockquote{
+        font-size: 24px;
+    }
+
+    nav a{
+        display: block;
+    }
+
+
+    nav a:hover{
+        border: none;
+    }
+
+
+    blockquote{
+        margin: 20px 0px;
+    }
+
+}
